@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/84d50fdfa1.js" crossorigin="anonymous"></script>
+<title>Assignment-5</title>
+</head>
+<body>
+    <header class="px-20">
+        <nav class="bg-slate-200 max-h-24 ">
+            <div class="flex justify-between align-middle mb-10 ">
+                <div class="flex mt-10 ml-5 ">
+                    <img class="max-h-7 mb-3" src="logo.png" alt="">
+                    <h1 class="mb=6">Dev<span class="font-bold">Board</span><h1>
+                </div>
+                <div class="flex ml-96 gap-3">
+                    <div class="flex max-h-7 mt-9 gap-3">
+                   <img src="checkbox.png" alt="">
+                    
+                    <button id="rightNumber" class="mb-8 font-bold "> 23 </button>
+
+                    </div>
+                    <div>
+                    <img class="mt-10 max-w-5 max-h-6 mr-5" src="theme-btn.png" alt="">
+    
+                </div>
+            </div>
+       
+
+          </div>  
+        </nav>
+    </header>
+    <main class="px-20">
+        <div class="flex gap-20">
+        <div class="max-w-700">
+        <div class="flex gap-25 bg-slate-200">
+            <div class="flex gap-5 ml-5">
+                <img class="max-h-7 mt-10" src="checkbox.png" alt="">
+                 <div>
+                     <p class="text-gray-400 mt-7">Text Asignment</p>
+                     <h2 class="font-bold" id="leftNumber">6</h2>
+                 </div>
+     
+             </div>
+             <div class="max-w-96 rounded bg-gradient-to-tr from-blue-500 via-blue-300 to-blue-300 ">
+                <div class="flex px-10">
+                <img class="max-h-7 mt-10" src="board.png" alt="">
+                <button id="mainButton" class=" max-w-80  mt-10">Discover something new today!</button>
+                </div>
+            </div>
+            <div class="flex mb-6 gap-5 ml-5">
+                <img src="calender.png" alt="" class="max-h-5 mt-14 ">
+                <div>
+                    <p class="text-gray-400 mt-12">wednesday</p>
+                    <h2 class="font-bold">Jul 28 2025 </h2>
+                </div>
+        </div>
+        
+        </div>
+                 <div class="grid grid-rows-2 grid-flow-col mt-7 gap-4">
+                    <div class="bg-slate-200 rounded">
+                    
+                        <p class="text-gray-600 ml-3 mt-3 bg-white max-w-24 px-3  rounded mb-5">ShopEase</p>
+                        <h2 class="font-bold ml-3 mb-3">Fix Mobile Button Issue </h2>
+                        <p class="text-gray-600 bg-white rounded-md max-w-64 max-h-24 px-5 py-5 ml-3 truncate">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                         and ensure onClick works properly</p>
+                        <div class="flex mb-4 gap-4">
+                         <div>
+                             <p class="text-gray-600 ml-3">Deadline</p>
+                             <h2 class="font-bold ml-3">21 March 2025</h2>  
+                         </div>
+                         <button id="button-one" onclick="adjustNumber()" class=" mt-4 max-h-8 px-4 btn btn-active btn-secondary bg-blue-500">Completed</button>
+                         </div>
+                         </div>
+                         <div class="bg-slate-200 rounded">
+                    
+                            <p class="text-gray-600 ml-3 mt-3 bg-white max-w-24 px-3  rounded mb-5">CloudSync</p>
+                            <h2 class="font-bold ml-3 mb-3">Add Dark Mode </h2>
+                            <p class="text-gray-600 bg-white rounded-md max-w-64 max-h-24 px-5 py-5 mr-3 ml-3 truncate ">Store the user's preference in localStorage,
+                                 update CSS variables dynamically, and apply a smooth transition effect</p>
+                            <div class="flex mb-4 gap-4">
+                             <div>
+                                 <p class="text-gray-600 ml-3">Deadline</p>
+                                 <h2 class="font-bold ml-3">21 March 2025</h2>  
+                             </div>
+                            
+                                 <button id="button-two" onclick="secondNumber()" class=" mt-4 max-h-8 px-4 btn btn-active btn-secondary bg-blue-500">Completed</button>
+                                 </div>
+                                 </div>
+                                    <div class="bg-slate-200 rounded">
+                                    
+                                        <p class="text-gray-300 ml-3">ShopEase</p>
+                                        <h2 class="font-bold ml-3">Fix Mobile Button Issue </h2>
+                                        <p class="text-gray-400 bg-white rounded-md max-w-70 ml-3">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                         and ensure onClick works properly</p>
+                                        <div class="flex gap-4">
+                                         <div>
+                                             <p class="text-gray-300 ml-3">Deadline</p>
+                                             <h2 class="font-bold ml-3">21 March 2025</h2>  
+                                         </div>
+                                         <button id="button-three" onclick="thirdNumber()" class=" mt-4 max-h-8 px-4 btn btn-active btn-secondary bg-blue-500">Completed</button>
+                                         </div>
+                                         </div>
+                                            <div class="bg-slate-200 rounded">
+                                            
+                                                <p class="text-gray-300 ml-3">ShopEase</p>
+                                                <h2 class="font-bold ml-3">Fix Mobile Button Issue </h2>
+                                                <p class="text-gray-400 bg-white rounded-md max-w-70 ml-3">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                                 and ensure onClick works properly</p>
+                                                <div class="flex gap-4">
+                                                 <div>
+                                                     <p class="text-gray-300 ml-3">Deadline</p>
+                                                     <h2 class="font-bold ml-3">21 March 2025</h2>  
+                                                 </div>
+                                                 <button id="button-four" onclick="fourthNumber()" class=" mt-4 max-h-8 px-4 btn btn-active btn-secondary bg-blue-500">Completed</button>
+                                                 </div>
+                                                 </div>
+                                                    <div class="bg-slate-200 rounded">
+                                                    
+                                                        <p class="text-gray-300 ml-3">ShopEase</p>
+                                                        <h2 class="font-bold ml-3">Fix Mobile Button Issue </h2>
+                                                        <p class="text-gray-400 bg-white rounded-md max-w-70 ml-3">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                                         and ensure onClick works properly</p>
+                                                        <div class="flex gap-4">
+                                                         <div>
+                                                             <p class="text-gray-300 ml-3">Deadline</p>
+                                                             <h2 class="font-bold ml-3">21 March 2025</h2>  
+                                                         </div>
+                                                         <button id="button-five" onclick="fifthNumber()" class=" mt-4 max-h-8 px-4 btn btn-active btn-secondary bg-blue-500">Completed</button>
+                                                         </div>
+                                                         </div>
+                                                         <div class="bg-slate-200 rounded">
+                                                    
+                                                            <p class="text-gray-300 ml-3">ShopEase</p>
+                                                            <h2 class="font-bold ml-3">Fix Mobile Button Issue </h2>
+                                                            <p class="text-gray-400 bg-white rounded-md max-w-70 ml-3">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                                             and ensure onClick works properly</p>
+                                                            <div class="flex gap-4">
+                                                             <div>
+                                                                 <p class="text-gray-300 ml-3">Deadline</p>
+                                                                 <h2 class="font-bold ml-3">21 March 2025</h2>  
+                                                             </div>
+                                                             <button id="button-six" onclick="sixthNumber()" class=" mt-4 max-h-8 px-4 btn btn-active btn-secondary bg-blue-500">Completed</button>
+                                                             </div>
+                                                             </div>
+                 
+        </div>
+        </div>
+        <div>
+            <div class="flex">
+                <img src="activity.png" alt="">
+                <h2 class="font-semibold">Activity log</h2>
+
+            </div>
+            <button onclick="clearAll()" class="mt-4 max-h-8 px-4 btn btn-active btn-secondary bg-blue-500">Clear All</button>
+            <div class="right" id="textDisplay1"></div>
+            <div class="right" id="textDisplay2"></div>
+            <div class="right" id="textDisplay3"></div>
+            <div class="right" id="textDisplay4"></div>
+            <div class="right" id="textDisplay5"></div>
+            <div class="right" id="textDisplay6"></div>
+        </div>
+    </div>
+    </main>
+    <script src="scripts/login.js"></script>
+</body>
+</html>
