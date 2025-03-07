@@ -29,7 +29,7 @@ document.getElementById("button-six").addEventListener("click",function(){
         let currentTime = new Date().toLocaleTimeString();
                 let newText = document.createElement("div");
                 newText.classList.add("text-box");
-                newText.innerHTML = `<span>${currentTime}</span> <Span>my name is priya</span>`;
+                newText.innerHTML = `<span>${currentTime}</span> <Span>You have completed the task</span>`;
                 textDisplay1.appendChild(newText);
         
         }
@@ -54,7 +54,7 @@ document.getElementById("button-six").addEventListener("click",function(){
             let currentTime = new Date().toLocaleTimeString();
                 let newText = document.createElement("div");
                 newText.classList.add("text-box");
-                newText.innerHTML = `<span>${currentTime}</span> <Span>my name is priya</span>`;
+                newText.innerHTML = `<span>${currentTime}</span> <Span>You have completed the task</span>`;
                 textDisplay2.appendChild(newText);
                 
                 
@@ -76,7 +76,7 @@ document.getElementById("button-six").addEventListener("click",function(){
             let currentTime = new Date().toLocaleTimeString();
                     let newText = document.createElement("div");
                     newText.classList.add("text-box");
-                    newText.innerHTML = `<span>${currentTime}</span> <Span>my name is priya</span>`;
+                    newText.innerHTML = `<span>${currentTime}</span> <Span>You have completed the task</span>`;
                     textDisplay3.appendChild(newText);
             
             }
@@ -96,7 +96,7 @@ document.getElementById("button-six").addEventListener("click",function(){
             let currentTime = new Date().toLocaleTimeString();
                     let newText = document.createElement("div");
                     newText.classList.add("text-box");
-                    newText.innerHTML = `<span>${currentTime}</span> <Span>my name is priya</span>`;
+                    newText.innerHTML = `<span>${currentTime}</span> <Span>You have completed the task</span>`;
                     textDisplay4.appendChild(newText);
             
             }
@@ -116,7 +116,7 @@ document.getElementById("button-six").addEventListener("click",function(){
             let currentTime = new Date().toLocaleTimeString();
                     let newText = document.createElement("div");
                     newText.classList.add("text-box");
-                    newText.innerHTML = `<span>${currentTime}</span> <Span>my name is priya</span>`;
+                    newText.innerHTML = `<span>${currentTime}</span> <Span>You have completed the task</span>`;
                     textDisplay5.appendChild(newText);
             
             }
@@ -136,7 +136,7 @@ document.getElementById("button-six").addEventListener("click",function(){
             let currentTime = new Date().toLocaleTimeString();
                     let newText = document.createElement("div");
                     newText.classList.add("text-box");
-                    newText.innerHTML = `<span>${currentTime}</span> <Span>my name is priya</span>`;
+                    newText.innerHTML = `<span>${currentTime}</span> <Span>You have completed the task</span>`;
                     textDisplay6.appendChild(newText);
             
             }
